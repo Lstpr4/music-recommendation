@@ -13,7 +13,7 @@ A web-based music recommendation system built with Python, Flask, HTML, CSS, and
 
 - **Backend**: Python, Flask
 - **Frontend**: HTML, CSS, JavaScript
-- **Data Analysis**: Pandas, NumPy, Scikit-learn
+- **Data Analysis**:NumPy, 
 - **Audio**: HTML5 Audio API
 
 ## Installation
