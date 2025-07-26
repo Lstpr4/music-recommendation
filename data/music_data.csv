@@ -1,0 +1,31 @@
+song_id,title,artist,album,release_year,genre,popularity,danceability,energy,valence,audio_path
+1,Bohemian Rhapsody,Queen,A Night at the Opera,1975,Rock,95,0.4,0.8,0.3,/static/audio/sample1.mp3
+2,Billie Jean,Michael Jackson,Thriller,1982,Pop,92,0.8,0.7,0.6,/static/audio/sample2.mp3
+3,Shape of You,Ed Sheeran,÷,2017,Pop,98,0.8,0.7,0.9,/static/audio/sample3.mp3
+4,Despacito,Luis Fonsi ft. Daddy Yankee,Vida,2017,Latin,96,0.8,0.8,0.8,/static/audio/sample4.mp3
+5,Uptown Funk,Mark Ronson ft. Bruno Mars,Uptown Special,2014,Funk,94,0.9,0.9,0.9,/static/audio/sample5.mp3
+6,Hotel California,Eagles,Hotel California,1976,Rock,90,0.4,0.6,0.5,/static/audio/sample6.mp3
+7,Sweet Child o' Mine,Guns N' Roses,Appetite for Destruction,1987,Rock,89,0.5,0.8,0.6,/static/audio/sample7.mp3
+8,Bad Guy,Billie Eilish,When We All Fall Asleep Where Do We Go,2019,Pop,97,0.7,0.4,0.7,/static/audio/sample8.mp3
+9,Africa,Toto,Toto IV,1982,Pop Rock,88,0.6,0.7,0.8,/static/audio/sample9.mp3
+10,Blinding Lights,The Weeknd,After Hours,2019,Synth-pop,96,0.8,0.7,0.5,/static/audio/sample10.mp3
+11,Lose Yourself,Eminem,8 Mile Soundtrack,2002,Hip Hop,93,0.7,0.9,0.3,/static/audio/sample11.mp3
+12,Thinking Out Loud,Ed Sheeran,x,2014,Pop,91,0.5,0.4,0.8,/static/audio/sample12.mp3
+13,Havana,Camila Cabello ft. Young Thug,Camila,2017,Pop,90,0.8,0.5,0.7,/static/audio/sample13.mp3
+14,Royals,Lorde,Pure Heroine,2013,Alternative,89,0.6,0.4,0.4,/static/audio/sample14.mp3
+15,Wake Me Up,Avicii,True,2013,EDM,91,0.5,0.8,0.6,/static/audio/sample15.mp3
+16,Shallow,Lady Gaga ft. Bradley Cooper,A Star Is Born,2018,Pop,94,0.4,0.6,0.3,/static/audio/sample16.mp3
+17,Rolling in the Deep,Adele,21,2010,Soul,92,0.7,0.8,0.2,/static/audio/sample17.mp3
+18,Wonderwall,Oasis,(What's the Story) Morning Glory?,1995,Britpop,87,0.4,0.9,0.4,/static/audio/sample18.mp3
+19,Love Yourself,Justin Bieber,Purpose,2015,Pop,88,0.6,0.4,0.5,/static/audio/sample19.mp3
+20,Old Town Road,Lil Nas X ft. Billy Ray Cyrus,7,2019,Country Rap,95,0.9,0.7,0.6,/static/audio/sample20.mp3
+21,Don't Stop Believin',Journey,Escape,1981,Rock,90,0.5,0.8,0.7,/static/audio/sample21.mp3
+22,November Rain,Guns N' Roses,Use Your Illusion I,1991,Rock,88,0.3,0.7,0.4,/static/audio/sample22.mp3
+23,All I Want for Christmas Is You,Mariah Carey,Merry Christmas,1994,Holiday,92,0.7,0.6,0.8,/static/audio/sample23.mp3
+24,Dancing Queen,ABBA,Arrival,1976,Disco,89,0.9,0.7,0.9,/static/audio/sample24.mp3
+25,Stairway to Heaven,Led Zeppelin,Led Zeppelin IV,1971,Rock,92,0.3,0.6,0.4,/static/audio/sample25.mp3
+26,Sicko Mode,Travis Scott,Astroworld,2018,Hip Hop,94,0.7,0.8,0.4,/static/audio/sample26.mp3
+27,Yesterday,The Beatles,Help!,1965,Pop,90,0.3,0.2,0.4,/static/audio/sample27.mp3
+28,Happy,Pharrell Williams,G I R L,2013,Pop,93,0.8,0.7,0.9,/static/audio/sample28.mp3
+29,Imagine,John Lennon,Imagine,1971,Rock,91,0.3,0.4,0.6,/static/audio/sample29.mp3
+30,Watermelon Sugar,Harry Styles,Fine Line,2019,Pop,90,0.6,0.5,0.8,/static/audio/sample30.mp3

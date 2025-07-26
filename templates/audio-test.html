@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Test Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #1db954;
+        }
+        .audio-test {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #1db954;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        audio {
+            width: 100%;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Audio Test Page</h1>
+    <p>This page tests if audio files can be played directly in the browser.</p>
+
+    <div id="audio-tests"></div>
+
+    <script>
+        // Generate audio test elements for each sample
+        const audioTests = document.getElementById('audio-tests');
+        
+        for (let i = 1; i <= 10; i++) {
+            const audioPath = `/static/audio/sample${i}.mp3`;
+            const container = document.createElement('div');
+            container.className = 'audio-test';
+            
+            const title = document.createElement('h3');
+            title.textContent = `Sample ${i} Audio Test`;
+            
+            const audioEl = document.createElement('audio');
+            audioEl.controls = true;
+            audioEl.src = audioPath;
+            
+            const status = document.createElement('p');
+            status.id = `status-${i}`;
+            status.textContent = 'Status: Loading...';
+            
+            const playButton = document.createElement('button');
+            playButton.textContent = 'Play Audio';
+            playButton.onclick = function() {
+                audioEl.play()
+                    .then(() => {
+                        status.textContent = 'Status: Playing successfully!';
+                        status.style.color = 'green';
+                    })
+                    .catch(err => {
+                        status.textContent = `Status: Error - ${err.message}`;
+                        status.style.color = 'red';
+                        console.error('Audio error:', err);
+                    });
+            };
+            
+            audioEl.addEventListener('canplaythrough', () => {
+                status.textContent = 'Status: Audio loaded successfully!';
+                status.style.color = 'green';
+            });
+            
+            audioEl.addEventListener('error', (e) => {
+                status.textContent = `Status: Failed to load audio. Error code: ${audioEl.error ? audioEl.error.code : 'unknown'}`;
+                status.style.color = 'red';
+                console.error(`Error with audio sample${i}:`, audioEl.error);
+            });
+            
+            container.appendChild(title);
+            container.appendChild(status);
+            container.appendChild(audioEl);
+            container.appendChild(playButton);
+            
+            audioTests.appendChild(container);
+        }
+    </script>
+</body>
+</html>
