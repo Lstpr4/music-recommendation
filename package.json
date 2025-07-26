@@ -1,0 +1,24 @@
+{
+  "name": "music-recommendation",
+  "version": "1.0.0",
+  "description": "A music recommendation system built with Python, Flask, HTML/CSS, and JavaScript",
+  "keywords": [
+    "music",
+    "recommendation-system",
+    "flask",
+    "python",
+    "machine-learning",
+    "html",
+    "css",
+    "javascript",
+    "audio-player",
+    "content-based-filtering"
+  ],
+  "author": "Lstpr4",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lstpr4/music-recommendation.git"
+  },
+  "homepage": "https://Lstpr4.github.io/music-recommendation",
+  "license": "MIT"
+}
