@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Recommendation System</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+        }
+        .jumbotron {
+            background-color: #191414;
+            padding: 4rem 2rem;
+            margin-bottom: 2rem;
+            border-radius: 0.3rem;
+        }
+        .card {
+            background-color: #282828;
+            color: white;
+            margin-bottom: 20px;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .btn-primary {
+            background-color: #1db954;
+            border-color: #1db954;
+        }
+        .btn-primary:hover {
+            background-color: #1ed760;
+            border-color: #1ed760;
+        }
+        .footer {
+            padding: 20px 0;
+            margin-top: 40px;
+            border-top: 1px solid #535353;
+            text-align: center;
+            opacity: 0.7;
+        }
+        .alert {
+            background-color: #282828;
+            color: white;
+            border: 1px solid #535353;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="jumbotron text-center">
+            <h1 class="display-4">Music Recommendation System</h1>
+            <p class="lead">A web-based system to get personalized music recommendations based on songs and genres.</p>
+            <hr class="my-4">
+            <p>This project uses Python, Flask, HTML/CSS, and JavaScript to create an interactive music recommendation platform.</p>
+        </div>
+
+        <div class="alert alert-info">
+            <strong>Note:</strong> This is the GitHub Pages landing page. The actual application needs to be deployed to a platform that supports Python/Flask (like Heroku, PythonAnywhere, etc.)
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Features</h5>
+                        <ul>
+                            <li>Get recommendations based on song similarity</li>
+                            <li>Browse top songs by genre</li>
+                            <li>Integrated music player</li>
+                            <li>Responsive design for all devices</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Technologies</h5>
+                        <ul>
+                            <li>Backend: Python, Flask</li>
+                            <li>Frontend: HTML, CSS, JavaScript</li>
+                            <li>Data Analysis: Pandas, NumPy, Scikit-learn</li>
+                            <li>Audio: HTML5 Audio API</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Installation & Usage</h5>
+                        <pre><code>
+# Clone the repository
+git clone https://github.com/Lstpr4/music-recommendation.git
+cd music-recommendation
+
+# Create and activate virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the application
+flask run
+
+# Open your browser and go to http://127.0.0.1:5000
+                        </code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4 text-center">
+            <div class="col-md-12">
+                <a href="https://github.com/Lstpr4/music-recommendation" class="btn btn-primary btn-lg">View on GitHub</a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 Music Recommendation System by <a href="https://github.com/Lstpr4">Lstpr4</a></p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
